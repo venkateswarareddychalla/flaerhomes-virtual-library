@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/flaerhomes-virtual-library/static/css/main.b6fd9c35.css",
+    "main.js": "/flaerhomes-virtual-library/static/js/main.6fb21c84.js",
+    "static/js/453.9713f9c1.chunk.js": "/flaerhomes-virtual-library/static/js/453.9713f9c1.chunk.js",
+    "index.html": "/flaerhomes-virtual-library/index.html",
+    "main.b6fd9c35.css.map": "/flaerhomes-virtual-library/static/css/main.b6fd9c35.css.map",
+    "main.6fb21c84.js.map": "/flaerhomes-virtual-library/static/js/main.6fb21c84.js.map",
+    "453.9713f9c1.chunk.js.map": "/flaerhomes-virtual-library/static/js/453.9713f9c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6fd9c35.css",
+    "static/js/main.6fb21c84.js"
+  ]
+}
