@@ -1,0 +1,151 @@
+.my-library-container {
+  padding: 30px;
+}
+@media (min-width: 768px) {
+  .my-library-container {
+    padding: 50px;
+  }
+}
+.my-library-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+@media (min-width: 768px) {
+}
+.my-library-ul-container {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+}
+.my-library-list-item {
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 400px;
+  border: 1px solid #e0e0e0;
+}
+@media (min-width: 768px) {
+  .my-library-list-item {
+  }
+}
+.my-library-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+}
+.my-library-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke: 1px red;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .my-library-title {
+    font-size: 24px;
+  }
+}
+.my-library-author {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "roboto";
+}
+@media (min-width: 768px) {
+}
+.view-more-btn {
+  height: 30px;
+  width: 80px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "roboto";
+  border-radius: 8px;
+  background-color: #007fff;
+  margin-right: 20px;
+
+  color: white;
+}
+@media (min-width: 768px) {
+}
+.remove-btn {
+  height: 30px;
+  width: 80px;
+  border: 2px solid #007fff;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  background-color: white;
+  margin-right: 20px;
+  color: black;
+}
+@media (min-width: 768px) {
+}
+span {
+  color: gray;
+  font-size: 17px;
+}
+@media (min-width: 768px) {
+}
+.no-books-message {
+  font-size: 16px;
+  font-family: "roboto";
+  text-align: center;
+  font-weight: 500;
+  margin-top: 70px;
+  margin-top: 0px;
+}
+@media (min-width: 768px) {
+  .no-books-message {
+    font-size: 18px;
+  }
+}
+.no-books-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .no-books-container {
+    .no-books-container {
+      margin-top: 20px;
+    }
+  }
+}
+.no-books-image {
+  height: 230px;
+  width: 250px;
+}
+@media (min-width: 768px) {
+}
+.no-books-found-heading {
+  font-size: 28px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, "sans-serif";
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .no-books-found-heading {
+    font-size: 36px;
+  }
+}

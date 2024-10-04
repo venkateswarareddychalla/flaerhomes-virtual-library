@@ -1,0 +1,57 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .header-container {
+    height: 85px;
+  }
+}
+.header-logo {
+  height: 80px;
+  width: 120px;
+}
+@media (min-width: 768px) {
+  .header-logo {
+    height: 90px;
+    width: 150px;
+    margin-left: 30px;
+  }
+}
+.header-icons-container {
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  .header-icons-container {
+    margin-right: 30px;
+  }
+}
+.home-icon {
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .home-icon {
+    margin-right: 30px;
+  }
+}
+.books-icon {
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .books-icon {
+    margin-right: 30px;
+  }
+}
+.link-item {
+  text-decoration: none;
+  color: black;
+  outline: none;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+}

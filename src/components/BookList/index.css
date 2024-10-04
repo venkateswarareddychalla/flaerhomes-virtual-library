@@ -1,0 +1,24 @@
+.books-list {
+  padding: 10px;
+}
+.books-ul-container {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .books-ul-container {
+    margin-top: 30px;
+  }
+}
+.no-search-results-container {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-search-results-image {
+  height: 300px;
+  width: 250px;
+}

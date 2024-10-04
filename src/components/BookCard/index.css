@@ -1,0 +1,75 @@
+.book-card-list {
+  list-style-type: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  background-color: #b2ffff;
+  margin: 20px;
+  margin-top: none;
+}
+@media (min-width: 768px) {
+  .book-card-list {
+    border-radius: 9px;
+    padding: 25px;
+  }
+}
+.book-card-title {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Rockwell";
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .book-card-title {
+    font-size: 24px;
+  }
+}
+.book-card-author {
+  font-size: 16px;
+  font-family: "roboto";
+  margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+  .book-card-author {
+    font-size: 17px;
+  }
+}
+.book-card-genre {
+  font-size: 16px;
+  font-family: "roboto";
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+@media (min-width: 768px) {
+  .book-card-genre {
+    font-size: 17px;
+  }
+}
+.book-card-rating {
+  font-size: 16px;
+  font-family: "roboto";
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+@media (min-width: 768px) {
+  .book-card-rating {
+    font-size: 17px;
+  }
+}
+.book-card-link {
+  font-size: 15px;
+  font-family: "roboto";
+  margin-bottom: 3px;
+  color: #0076ce;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+  outline: none;
+}
+@media (min-width: 768px) {
+  .book-card-link {
+    font-size: 18px;
+
+    outline: none;
+  }
+}
